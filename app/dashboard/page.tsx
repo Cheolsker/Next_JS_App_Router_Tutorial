@@ -11,6 +11,13 @@ import {
 } from "@/app/ui/skeletons";
 import { fetchCardData } from "../lib/data";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Dashboard",
+  description: "Dashboard Page.",
+};
+
 export default async function Page() {
   /* 개별적으로 카드를 불러온다면 ? */
   // const {
